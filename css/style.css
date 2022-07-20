@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-body {
+* {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*------------------------------
+---- header section start ----
+----------------------------------------*/
 header {
     display: flex;
     justify-content: center;
@@ -12,15 +19,14 @@ header {
 
 .top-header {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 40px;
     height: 646px;
     width: 1321px;
     border-radius: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
     background-color: #161616;
-    align-items: center;
-    justify-content: center
+
 }
 
 .header-content {
@@ -35,30 +41,31 @@ header {
 .header-content h1 {
     font-weight: 700;
     font-size: 70px;
-    margin: 0;
     line-height: 80px;
+    margin-bottom: 20px;
+
 
 }
 
 .header-content p {
-    margin-top: 30px;
-    margin-bottom: 20px;
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
+    margin-bottom: 30px;
+
 }
 
 .banner-image img {
-    /* font-size: 200px; */
     width: 581px;
     height: 613px;
+    margin-top: 40px;
 }
 
 .watch-live button {
     height: 56px;
     width: 187px;
     background-color: #DD0000;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .watch-live a {
@@ -67,3 +74,24 @@ header {
     font-size: 18px;
     font-weight: 500;
 }
+
+/*------------------------------
+---- header section end ----
+----------------------------------------*/
+
+
+/*------------------------------
+---- main  section start ----
+----------------------------------------*/
+
+.nav-items {
+    #
+}
+
+
+
+
+
+/*------------------------------
+---- main secttion start ----
+----------------------------------------*/
