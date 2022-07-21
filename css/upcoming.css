@@ -60,11 +60,21 @@ body {
 
 .header-content a {
     background-color: #DD0000;
+    color: white;
     border-radius: 8px;
-    color: #ffffff;
     padding: 15px 40px;
     text-decoration: none;
     font-size: 23px;
+}
+
+.header-content a>i {
+    margin-left: 10px;
+}
+
+.header-content a:hover {
+    background-color: white;
+    color: #161616;
+    transition: all 0.5s;
 }
 
 
@@ -112,6 +122,12 @@ main {
     font-weight: 500;
 
 
+}
+
+.side-nav a:hover {
+    background-color: #DD0000;
+    color: white;
+    transition: all 0.5s;
 }
 
 .upcoming-section {
@@ -187,11 +203,17 @@ main {
 }
 
 /*------------------------------
----- main section start ----
+---- main section end ----
 ----------------------------------------*/
 
-.footer-content {
-    height: 444px;
+
+/*------------------------------
+---- footer section start ----
+----------------------------------------*/
+
+
+.footer-info {
+    height: 460px;
     width: 100%;
     text-align: center;
     background-color: #161616;
@@ -200,10 +222,35 @@ main {
 .footer-title h3 {
     color: white;
     margin-top: 130px;
-    padding-top: 130px;
+    padding-top: 80px;
     padding-bottom: 60px;
     font-size: 50px;
     font-weight: 500;
+}
+
+.link-icons {
+    margin-top: 30px;
+}
+
+.link-icons a {
+    padding: 15px 5px 15px 5px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #B9B9B9;
+    margin-right: 10px;
+    transition: .3s ease-in;
+    margin-top: 20px;
+    border: 1px solid #B9B9B9;
+    border-radius: 40px;
+    width: 40px;
+}
+
+.link-icons a:hover {
+    background-color: #DD0000;
+    color: white;
+    transition: all 0.5s;
+
 }
 
 .footer-content hr {
@@ -211,12 +258,23 @@ main {
     width: 1320px;
 }
 
-.footer-info {
+
+.footer-links {
     margin-top: 40px;
 }
 
-.footer-info a {
+.footer-links a {
     text-decoration: none;
     color: white;
     padding: 20px;
 }
+
+.footer-links a:hover {
+    background-color: #DD0000;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+/*------------------------------
+---- footer section end ----
+----------------------------------------*/
